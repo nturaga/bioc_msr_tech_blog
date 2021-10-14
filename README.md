@@ -4,7 +4,7 @@ Authors: Nitesh Turaga, Erdal Cogsun, Martin Morgan, and Vince Carey
 
 Outline:
 
-1. Introduction.
+1. Overview.
 2. Outline collaboration with Microsoft Genomics.
 3. Bioconductor docker image availability on Microsoft container registry.
 4. Building and distributing binaries for faster installation of packages.
