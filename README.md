@@ -1,4 +1,4 @@
-# Bioconductor and it's applications in Microsoft Azure
+# Bioconductor and its applications in Microsoft Azure
 
 Authors: Nitesh Turaga, Erdal Cogsun, and Vince Carey
 
