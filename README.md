@@ -3,6 +3,8 @@ Bioconductor on Microsoft Azure
 
 [Nitesh Turaga](https://www.linkedin.com/in/niteshturaga/); Erdal Cosgun; and Vince Carey
 
+Teaser: Using Bioconductor on Microsoft Azure cloud resources for scalable genomic computing.
+
 ## Introduction
 
 The [Bioconductor project](https://bioconductor.org) promotes the statistical analysis and
