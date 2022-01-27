@@ -1,24 +1,19 @@
-Bioconductor and its applications in Microsoft Azure
-=================
+Bioconductor on Microsoft Azure
+=====================================================
 
 Authors: Nitesh Turaga (nitesh@ds.dfci.harvard.edu); Erdal Cogsun; and Vince Carey
 
+1. Introduction
 
-1. Overview.
+2. Bioconductor docker images
 
-3. Bioconductor docker image availability on Microsoft container registry.
+3. Bioconductor Hubs - AnnotationHub and ExperimentHub data
 
-5. OSCA book on Azure - how we solve binaries issue here. (! big one)
+4. Future developments
 
-6. Annotation and Experiment Hubs on Azure Storage containers.
+## Introduction
 
-4. Building and distributing binaries for faster installation of packages.
-
-7. Future developments
-
-## Overview
-
-The Bioconductor project promotes the statistical analysis and
+The [Bioconductor project](https://bioconductor.org) promotes the statistical analysis and
 comprehension of current and emerging high-throughput biological
 assays. Bioconductor is a strict proponent to open source and open
 development of software; and collaborative, literate, and reproducible
@@ -47,6 +42,8 @@ public on an open-source Artistic-2.0 license.
 docker pull mcr.microsoft.com/bioconductor/bioconductor_docker:RELEASE_3_14
 ```
 
+These images can be used with Azure container instances (ACI) with the available [launch instructions](http://bioconductor.org/help/docker/#msft).
+
 The added benefit of these docker images are the availability of
 pre-compiled Bioconductor package binaries. These package binaries
 speed up the installtion of packages on the Docker image and provide
@@ -65,7 +62,7 @@ pkgs <- c('BiocParallel', 'rsbml', 'rhdf5`)
 BiocManager::install(pkgs)
 ```
 
-## Bioconductor Hubs - Annotation and Experiment data
+## Bioconductor Hubs - AnnotationHub and ExperimentHub data
 
 Bioconductor distributes it's annotation and experiment hub data
 through Azure Storage containers. The Bioconductr
@@ -80,15 +77,22 @@ ExperimentHub provides a central location where curated data from
 experiments, publications or training courses can be accessed. Each
 resource has associated metadata, tags and date of modification.
 
-As of this post, (1/27/2022) about 2.5 TB of data has been distributed
+As of this post, (1/27/2022) about **2.5 TB** of data has been distributed
 to important genomic research to scientists around the world.
 
-< INSERT correct link here>
+![BioconductorHubs Egress for 1 month](https://github.com/nturaga/bioc_msr_tech_blog/blob/master/BioconductorHubs-Egress.png)
+
+
+<TODO - insert updated correct link to GDL - Bioconductor page>
 The Bioconductor Annotation and Experiment Hub data details can be
 found on [Microsoft Genomic Data
 Lake](https://docs.microsoft.com/en-us/azure/open-datasets/dataset-genomics-data-lake).
 
-![images/BioconductorHubs-Egress.png](BioconductorHubs-Egress)
-
-
 ## Future developments
+
+OSCA book - docker image for OSCA book
+
+Binary production on AKS with BiocKubeInstall
+
+Azure utils for AnVIL package
+
