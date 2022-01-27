@@ -1,15 +1,7 @@
 Bioconductor on Microsoft Azure
 =====================================================
 
-Authors: Nitesh Turaga (nitesh@ds.dfci.harvard.edu); Erdal Cogsun; and Vince Carey
-
-1. Introduction
-
-2. Bioconductor docker images
-
-3. Bioconductor Hubs - AnnotationHub and ExperimentHub data
-
-4. Future developments
+[Nitesh Turaga](https://www.linkedin.com/in/niteshturaga/); Erdal Cosgun; and Vince Carey
 
 ## Introduction
 
@@ -26,6 +18,8 @@ of the analysis of the varying size of data depending on the analysis
 setting. The **elasticity** and **scalability** of cloud services is a
 resource that makes it easy for a small lab or a large company to take
 advantage of Bioconductor's open source software, and data resources.
+
+![Bioconductor website](https://github.com/nturaga/bioc_msr_tech_blog/blob/master/bioconductor-website.png)
 
 ## Bioconductor Docker Images
 
@@ -80,7 +74,7 @@ resource has associated metadata, tags and date of modification.
 As of this post, (1/27/2022) about **2.5 TB** of data has been distributed
 to important genomic research to scientists around the world.
 
-![BioconductorHubs Egress for 1 month](https://github.com/nturaga/bioc_msr_tech_blog/blob/master/BioconductorHubs-Egress.png)
+![BioconductorHubs Usage Stats for 1 month](https://github.com/nturaga/bioc_msr_tech_blog/blob/master/BioconductorHubs-Egress.png)
 
 
 <TODO - insert updated correct link to GDL - Bioconductor page>
