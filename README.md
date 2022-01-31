@@ -61,8 +61,7 @@ BiocManager::install(pkgs)
 ## Bioconductor Hubs - AnnotationHub and ExperimentHub data
 
 Bioconductor distributes it's annotation and experiment hub data
-through Azure Storage containers. The Bioconductr
-
+through Azure Storage containers. The Bioconductor
 AnnotationHub resource provides a central location where genomic
 files (e.g., VCF, bed, wig) and other resources from standard
 locations (e.g., UCSC, Ensembl) can be discovered. The resource
