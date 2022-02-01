@@ -1,9 +1,11 @@
 Bioconductor on Microsoft Azure
-=====================================================
+================================
 
 [Nitesh Turaga](https://www.linkedin.com/in/niteshturaga/); Erdal Cosgun; and Vince Carey
 
 Teaser: Using Bioconductor on Microsoft Azure cloud resources for scalable genomic computing.
+
+![](https://github.com/nturaga/bioc_msr_tech_blog/blob/master/bioconductor_blog.JPG)
 
 ## Introduction
 
@@ -81,12 +83,4 @@ to important genomic research to scientists around the world.
 The Genomics Data Lake provides various public datasets that you can access for free and integrate into your genomics analysis workflows and applications. The datasets include genome sequences, variant info, and subject/sample metadata in BAM, FASTA, VCF, CSV file formats. The Genomics Data Lake is hosted in the West US 2 and West Central US Azure region. Allocating compute resources in West US 2 and West Central US is recommended for affinity. The Bioconductor Annotation and Experiment Hub data will be available on [Microsoft Genomic Data Lake](https://docs.microsoft.com/en-us/azure/open-datasets/dataset-genomics-data-lake) on mid-February 2022.
 
 You can find the sample Jupyter notebooks from this [repo](https://github.com/microsoft/genomicsnotebook) to download the Genomics Data Lake's data on your R-Bioconductor project. Another useful way to use Bioconductor packages on Azure is to use built-in Genomics Data Science VMs on Azure. You can easily deploy your Windows OR Linux VMs from this [link.](https://github.com/microsoft/genomicsnotebook/tree/main/genomics-data-science-vm)
-
-## Future developments
-
-OSCA book - docker image for OSCA book
-
-Binary production on AKS with BiocKubeInstall
-
-Azure utils for AnVIL package
 
